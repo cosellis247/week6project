@@ -1,0 +1,133 @@
+/* Author: Samantha Lee
+Date: November 13, 2023
+File Name: styles.css
+*/
+
+/* Global Styles */
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h3 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: #364c75;
+}
+
+img {
+  max-width: 100%;
+  border: #800b1b 2px solid;
+  display: block;
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+  font-size: 2em;
+  color: #800b1b;
+  background-color: #8abc25;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#headerimage {
+  background-image: url("../images/deltaplane.JPG");
+  height: 600px;
+  background-position: center bottom;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #b7d1e0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+nav li a {
+  display: block;
+  color: #800b1b;
+  padding: 0.5em 2em;
+  text-decoration: none;
+}
+
+/* Main Content Styles */
+main {
+  padding: 2%;
+  color: #b7d1e0;
+}
+
+h1, h3 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+main p, a {
+  font-size: 1.25em;
+  color: #b7d1e0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  font-size: 0.75em;
+  color: #8abc25;
+  padding: 1% 0;
+  background-color: #8abc25;
+}
+
+footer p, footer a {
+  color: #800b1b;
+  text-decoration: none;
+}
+
+/* Image and Gallery Styles */
+#floatimages, .gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  width: 33%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.gallery-item img, #floatimages img, h4 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gallery-item p, h4 {
+  text-align: center;
+  font-size: 1.5em;
+  font-style: italic;
+  padding: 1%;
+}
+
+/* Utility Classes */
+.center {
+  margin: 0 auto;
+}
+
+.clear {
+  clear: both;
+}
+
